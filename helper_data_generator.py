@@ -30,12 +30,9 @@ def get_record_action() -> str:
     Returns:
         str
     """
-    change_type = ("insert",
-                   "update",
-                   "delete",
-                   "no_change",
-                   "update",
-                   "no_change")
+    change_type = (
+        "insert", "update", "delete", "no_change", "update", "no_change", "insert", None, "update", "delete",
+        "no_change", "update", "nochange")
     return random.choice(change_type)
 
 
