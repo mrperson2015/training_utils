@@ -1,0 +1,4 @@
+randomCoordinates~=0.1.7
+Faker~=15.1.1
+
+pyspark~=3.0.3
