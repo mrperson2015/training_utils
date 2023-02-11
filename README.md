@@ -42,3 +42,7 @@ Several Python functions and classes to generate random data.
 
 Several functions that return a Spark DataFrame with random data. Uses the Data Generator helper.
 
+### Audit
+
+Classes that help facilitate capturing audit values for final audits to be performed. Think unit test that runs with
+the code.
