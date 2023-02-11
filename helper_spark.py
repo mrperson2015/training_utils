@@ -14,6 +14,7 @@ def get_spark(application_name: str) -> SparkSession:
 
     Examples:
         get_spark(application_name="my_really_good_job_name")
+
     Args:
         application_name: Name of the spark job application.
         Can change this during job execution to help support logging.
